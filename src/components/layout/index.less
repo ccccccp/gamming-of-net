@@ -1,0 +1,33 @@
+@import '../../styles/global.less';
+
+@header-height:60px;
+
+.app-layout{
+  header{
+    font-size:@font-title;
+    height:@header-height;
+    line-height:@header-height;
+    text-align:center;
+    border-bottom-width:1px;
+    border-bottom-style:solid;
+    .header-content{
+      width:@main-width;
+      margin:0 auto;
+    }
+  }
+  .app-content-wrapper{
+    width:@main-width;
+    margin:0 auto;
+    padding:30px;
+  }
+  footer{
+    font-size:@font-text;
+    text-align:center;
+    .header-content{
+      width:@main-width;
+      margin:0 auto;
+    }
+  }
+}
+
+
